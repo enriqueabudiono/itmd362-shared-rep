@@ -10,6 +10,6 @@ function active(){
 		panel.style.display = "block";
 	}
 }
-for(i = 0; i < acc.length; i++) {
+for(i = 0; i < name.length; i++) {
 	name[i].addEventListener("click",active())
 }
