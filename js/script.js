@@ -1,17 +1,16 @@
-var name = document.getElementsByClassName("tabs");
+var acc = document.getElementsByClassName("tabs");
 var i;
 
-function active(){
-	this.classList.toggle("active");
-	var content = this.nextElementSibling;
-	if (panel.style.display == "block"){
-		panel.style.display == "none";
-	} else {
-		panel.style.display = "block";
-	}
-}
-for(i = 0; i < name.length; i++) {
-	name[i].addEventListener("click",active())
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var tabcontent = this.nextElementSibling;
+    if (tabcontent.style.display === "block"){
+      tabcontent.style.display = "none";
+    } else {
+      tabcontent.style.display = "block";;
+    }
+  });
 }
 
 /* Form JS */
