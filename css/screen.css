@@ -46,6 +46,7 @@ nav a.active {
 }
 
 #header{
+	background-color: #6495ED; 
 	font-size: 64px;
 	font-weight: bold;
 	color: white;
