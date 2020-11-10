@@ -51,6 +51,6 @@ nav a.active {
 	color: white;
 }
 /* Form Page */
-.button {
+#buttons{
   display: block;
 }
