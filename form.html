@@ -3,26 +3,43 @@
 
 <head>
 	<meta charset="utf-8">
-	<title> A-Team Project 2</title>
+	<title>Contact Us | ISUD</title>
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="icon" href="media/Logo.png">
 	<script src="js/script.js"></script>
 </head>
 
 <body>
 	<header>
-	<nav id="navigation">
-	<ul>
-	  <li><a href="index.html"> Home</a></li>
-	  <li><a href="aboutus.html"> About Us</a></li>
-	  <li><a href="form.html"> Join Us</a></li>
-	</ul>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="aboutus.html">About Us</a>
+	  	<a href="form.html" class="active">Join Us</a>
 	</nav>
 	</header>
-
+	
 	<section>
 	  <h1 id="header">Contact Us</h1>
 	</section>
-
+	
+	<div id = "full_form">
+		<form name="sign_up_form" action="#null" method="get" autocomplete="on" onsubmit="return valiForm()">
+		 <fieldset>
+			 <label for = "firstname">First Name:</label>
+			 <input type="text" name ="f_name" id ="firstname" placeholder="Enter First Name">
+			 <label for = "lastname">Last Name:</label>
+			 <input type="text" name ="l_name" id ="lastname" placeholder="Enter Last Name">
+			 <label for = "emailid">Email Address:</label>
+			 <input type = "email" name = "email_id" id ="emailid" placeholder = "abcd13@gmail.com">
+		 </fieldset>
+		 <input type ="submit" value = "Join Us!">
+		</form>
+	</div>
+	<div id = "buttons">
+		<button type="button">Facebook</button>
+		<button type="button">LinkedIn</button>
+		<button type="button">Google+</button>
+	</div>
 </body>
 </html>
