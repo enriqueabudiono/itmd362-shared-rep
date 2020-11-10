@@ -53,8 +53,24 @@ nav a.active {
 	color: white;
 }
 
-/*CSS for the Buttons*/
+/*CSS for the Second Page*/
 
+/*CSS for the paragraph and headers*/
+
+#title{
+	margin-top: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#information{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*CSS for the Buttons*/
 .tabs{
 	background-color: #6495ED;
 	color: white;
