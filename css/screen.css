@@ -50,3 +50,7 @@ nav a.active {
 	font-weight: bold;
 	color: white;
 }
+/* Form Page */
+.button {
+  display: block;
+}
