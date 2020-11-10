@@ -56,17 +56,18 @@ nav a.active {
 /*CSS for the Second Page*/
 
 /*CSS for the paragraph and headers*/
-
+html{
+	text-align: center;
+}
 #title{
 	margin-top: 15px;
-	text-align: center;
 	font-size: 30px;
 }
 
 #information{
 	font-size: 20px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 10px
 }
 
 
