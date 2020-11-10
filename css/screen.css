@@ -91,3 +91,8 @@ html{
 	display: none;
 	overflow: hidden;
 }
+
+/*Form Page */
+#buttons{
+	display: block;
+}
