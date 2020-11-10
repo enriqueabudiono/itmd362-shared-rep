@@ -1,24 +1,50 @@
-#navigation{
+/* Navigation Bar*/
+nav {
 	position: fixed;
-	background-color: #6495ED;
-	width: 100%
-	top: 0%
-}
-#navigation i1{
-	list-style-type: none;
+	text-align: center;
 	overflow: hidden;
+	background-color: #6495ED;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	float: none;
 	display: inline-block;
-}
-#navigation ul li{
-	float: left;
-}
-#navigation ul li a{
 	color: white;
 	text-align: center;
-	background-color: #00008B;
-	padding: 10px;
-	font-size: 32px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
+
+nav a:hover {
+	background-color: #005BFF;
+}
+
+nav a.active {
+	background-color: #005BFF;
+}
+
+/*Logo in Index*/
+.logo {
+	position: absolute;
+	overflow: hidden;
+	top: 48px;
+	left: 20px;
+}
+
+.title {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	float: left;
+	top: 145px;
+	left: 280px;
+	font-size: 40px;
+	color: #6495ED;
+	max-width: 100%;
+}
+
 #header{
 	font-size: 64px;
 	font-weight: bold;
