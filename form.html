@@ -3,13 +3,12 @@
 
 <head>
 	<meta charset="utf-8">
-	<title> A-Team Project 2</title>
+	<title>Form | ISUD</title>
 	<link rel="stylesheet" type="text/css" href="screen.css">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<script src="js/script.js"></script>
 </head>
-	
-	
+
 <body>
 	<header>
 	<nav id="navigation">
@@ -20,5 +19,19 @@
 	</ul>
 	</nav>
 	</header>
+	<div id = "full_full">
+		<form name="sign_up_form" action="#null" method="get" autocomplete="on" onsubmit="return valForm()">
+		 <fieldset>
+			 <label for = "firstname">First Name:</label>
+			 <input type="text" name ="f_name" id ="firstname" placeholder="Enter First Name">
+			 <label for = "lastname">Last Name:</label>
+			 <input type="text" name ="l_name" id ="lastname" placeholder="Enter Last Name">
+			 <label for = "emailid">Email Address:</label>
+			 <input type = "email" name = "email_id" id ="emailid" placeholder = "abcd13@gmail.com">
+		 	</fieldset>
+			<input type ="submit" value = "Join Us!">
+		</form>
+  </div>
 </body>
+
 </html>
