@@ -390,8 +390,8 @@ input[type=submit]:hover {
 	}
 
 }
-/* Bigger than 300 pixel and smaller than 480 pixel*/
-@media screen and (min-width: 300px) and (max-width: 480px) {
+/* Bigger than 300 pixel and smaller than 510 pixel*/
+@media screen and (min-width: 300px) and (max-width: 510px) {
 	.divline{
 		visibility: hidden;
 	}
@@ -466,7 +466,7 @@ input[type=submit]:hover {
 	}
 	
 	  #sc_container{
-	  	top: 35%;
+	  	top: 40%;
 	  }
 }
 
@@ -524,13 +524,16 @@ input[type=submit]:hover {
 	}
 	
 	#sc_container{
-    		top: 35%;
+    		top: 40%;
  	}
  }
 @media screen and (min-width: 510px){
 	#tab3 p{
 		font-size: 16px;
 	}
+	#sc_container{
+	  	top: 40%;
+	  }
 }
 @media screen and (min-width: 768px){
 	#photos img{
@@ -623,4 +626,7 @@ input[type=submit]:hover {
 		top: 550px;
 		left: 400px;
 	}
+	#sc_container{
+	  	top: 30%;
+	  }
 }
