@@ -162,7 +162,39 @@ html{
 }
 #tab3 img{
 	float: left;
-	margin-left: 5%;
+	margin-left: 15%;
+	height: 400px;
+	width: auto;
+}
+#tab3 p{
+	margin: 10px 10%;
+	font-size: 20px;
+	width: auto;
+}
+/* CSS for Join Us Page */
+.content {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+#fullcontain{
+  margin-top: 3%;
+}
+/*Vertical line*/
+.divline{
+  border-left: 3px solid black;
+  height: 340px;
+  left: 54%;
+  margin-top: 19px;
+  position: absolute;
+}
+/* -->Form Page: Form */
+#full_form{
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 /* CSS for Join Us Page */
@@ -492,4 +524,3 @@ input[type=submit]:hover {
 	#sc_container{
     		top: 35%;
  	}
-}
