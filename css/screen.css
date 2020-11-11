@@ -169,9 +169,11 @@ html{
 /* CSS for Join Us Page */
 .content h2{
   font-size: 24px;
+  font-weight: bold;
 }
 .content h3{
   font-size: 18.72px;
+  font-weight: bold;
 }
 /*Vertical line*/
 .divline{
