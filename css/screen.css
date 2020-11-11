@@ -55,6 +55,12 @@ nav a.active {
 
 /*CSS for the Second Page*/
 
+/*CSS for the Pictures*/
+#photos{
+	height: 75px;
+	width: 115px;
+	border-radius: 10%;
+}
 /*CSS for the paragraph and headers*/
 html{
 	text-align: center;
@@ -69,8 +75,7 @@ html{
 	margin: 10px 15%;
 }
 
-
-/*CSS for the Buttons*/
+/*CSS for the Buttons and tab content*/
 .tabs{
 	background-color: #6495ED;
 	color: white;
