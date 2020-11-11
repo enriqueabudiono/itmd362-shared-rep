@@ -172,10 +172,7 @@ html{
   font-weight: bold;
   margin-top: 3%;
 }
-.content h3{
-  font-size: 18.72px;
-  font-weight: bold;
-}
+
 #fullcontain{
   margin-top: 3%;
 }
@@ -207,7 +204,7 @@ html{
   margin-bottom: 1px;
 }
 fieldset{
-  border: none;
+  border-right: none;
 }
 input[type=text], input[type=email]{
   border: 3px solid;
