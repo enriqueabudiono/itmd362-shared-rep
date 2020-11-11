@@ -104,8 +104,9 @@ html{
 }
 .tabcontent ol{
 	list-style-type: upper-roman;
+	list-style: inside;
 }
-.tabcontent ol li{
+.tabcontent ol, li{
 	margin-bottom: 10px;
 }
 .tabcontent h5{
