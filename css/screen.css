@@ -45,6 +45,43 @@ nav a.active {
 	max-width: 100%;
 }
 
+video {
+	position: absolute;
+	float: left;
+	top: 400px;
+	left: 100px;
+}
+
+.quote p {
+	position: absolute;
+	float: left;
+	font-family: 'Montserrat';
+	font-size: 25px;
+	top: 400px;
+	left: 800px;
+	padding: 18px;
+}
+.argument p {
+	position: absolute;
+	font-size: 25px;
+	top: 555px;
+	left: 800px;
+}
+
+.join-us p {
+	position: absolute;
+	font-size: 25px;
+	top: 650px;
+	left: 1000px;
+}
+
+.join-us button {
+	background-color: #6495ED;
+	border: 3px solid #005BFF;
+}
+
+/* End of CSS for index page */
+
 #header{
 	margin-top: 50px;
 	background-color: #6495ED; 
@@ -131,4 +168,158 @@ html{
 /*Form Page */
 #buttons{
 	display: block;
+}
+
+/* Mobile Device*/
+/* If window < 1000px */
+@media screen and (max-width: 800px) {
+	.logo {
+		position: absolute;
+		overflow: hidden;
+		top: 48px;
+		left: 0px;
+		width: 90px;
+	}
+	.title {
+		position: absolute;
+		float: left;
+		top: 85px;
+		left: 115px;
+		font-size: 13px;
+		color: #6495ED;
+		max-width: 100%;
+	}
+	video {
+		width: 90%;
+		position: absolute;
+		float: left;
+		top: 200px;
+		left: 20px;
+	}
+	.quote p {
+		position: absolute;
+		float: left;
+		font-family: 'Montserrat';
+		font-size: 16px;
+		top: 400px;
+		left: 0px;
+		padding: 18px;
+	}
+	.argument p {
+		position: absolute;
+		float: left;
+		font-size: 16px;
+		top: 550px;
+		left: 0px;
+	}
+	
+	.join-us p {
+		position: absolute;
+		font-size: 16px;
+		top: 600px;
+		left: 50px;
+	}
+}
+/* Bigger than 600 pixel and smaller than 1024 pixel*/
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+	.logo {
+		position: absolute;
+		overflow: hidden;
+		top: 48px;
+		left: 0px;
+		width: 90px;
+	}
+	
+	.title {
+		position: absolute;
+		float: left;
+		top: 85px;
+		left: 115px;
+		font-size: 25px;
+		color: #6495ED;
+		max-width: 100%;
+	}
+	
+	video {
+		width: 70%;
+		position: absolute;
+		top: 200px;
+		left: 120px;
+	}
+	
+	.quote p {
+		position: absolute;
+		float: left;
+		font-family: 'Montserrat';
+		font-size: 18px;
+		top: 600px;
+		left: 0px;
+		padding: 18px;
+	}
+	.argument p {
+		position: absolute;
+		float: left;
+		font-size: 18px;
+		top: 680px;
+		left: 0px;
+	}
+	
+	.join-us p {
+		position: relative;
+		font-size: 16px;
+		top: 730px;
+		left: 0px;
+	}
+}
+
+/* Bigger than 1024 pixel and smaller than 1600 pixel*/
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+	.logo {
+		position: absolute;
+		overflow: hidden;
+		top: 48px;
+		left: 0px;
+		width: 120px;
+	}
+	
+	.title {
+		position: absolute;
+		float: left;
+		top: 95px;
+		left: 150px;
+		font-size: 30px;
+		color: #6495ED;
+		max-width: 100%;
+	}
+	
+	video {
+		width: 70%;
+		position: absolute;
+		top: 200px;
+		left: 120px;
+	}
+	
+	.quote p {
+		position: absolute;
+		float: left;
+		font-family: 'Montserrat';
+		font-size: 23px;
+		top: 600px;
+		left: 0px;
+		padding: 18px;
+	}
+	.argument p {
+		position: absolute;
+		float: left;
+		font-size: 23px;
+		top: 680px;
+		left: 20px;
+	}
+	
+	.join-us p {
+		position: relative;
+		font-size: 23px;
+		top: 730px;
+		left: 0px;
+	}
 }
