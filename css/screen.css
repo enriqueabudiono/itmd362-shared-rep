@@ -165,10 +165,132 @@ html{
 	float: left;
 	margin-left: 5%;
 }
-/*Form Page */
-#buttons{
-	display: block;
+
+/*Form Page*/
+/*Vertical line*/
+.divline{
+  border-left: 3px solid black;
+  height: 340px;
+  left: 54%;
+  margin-top: 19px;
+  position: absolute;
 }
+/* -->Form Page: Form */
+#full_form{
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+#firstname{
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+#lastname{
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+#emailid{
+  margin-top: 8px;
+  margin-bottom: 1px;
+}
+fieldset{
+  border: none;
+}
+input[type=text], input[type=email]{
+  border: 3px solid;
+  background-color: #6495EDB8;
+  border-radius: 4px;
+  border-color: #6495EDB8;
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+input[type=text]:focus {
+  border: 1px solid;
+}
+input[type=submit] {
+  background-color: #6495ED;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 15px;
+  margin: 8px;
+  margin-left: 5%;
+  margin-right: 0;
+  width: 80%;
+  cursor: pointer;
+  font-size: 20px;
+}
+input[type=submit]:hover {
+  background-color: #005BFF;
+}
+/* -->Form Page: Social Media */
+#sc_container{
+  width: 42%;
+  position: absolute;
+  right: 0;
+  top: 39%;
+  margin-right: 2%;
+}
+.button1{
+  background-color: #4267B2E0; /* original: #4267B2 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 4px;
+  margin-bottom: 7%;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  display: block;
+}
+.button1:hover{
+  background-color: #4267B2;
+}
+
+.button2{
+  background-color: #2867B2E0;/* original: #2867B2 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 36px;
+  margin: 4px;
+  margin-bottom: 7%;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  display: block;
+}
+.button2:hover{
+  background-color: #2867B2;
+}
+
+.button3{
+  background-color: #DB4A39E0;/* original: #db4a39 */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 36px;
+  margin: 4px;
+  margin-bottom: 7%;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  display: block;
+}
+.button3:hover{
+  background-color: #db4a39;
+}
+
+/*End of CSS for Join Us Page */
 
 /* Mobile Device*/
 /* If window < 1000px */
