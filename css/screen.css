@@ -1,6 +1,6 @@
 /* Navigation Bar*/
 nav {
-	position: fixed;
+	position: absolute;
 	text-align: center;
 	overflow: hidden;
 	background-color: #6495ED;
