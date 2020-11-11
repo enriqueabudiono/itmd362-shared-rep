@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<title>Contact Us | ISUD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<title>Join Us | ISUD</title>
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="icon" href="media/Logo.png">
@@ -15,32 +15,39 @@
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="aboutus.html">About Us</a>
-	  	<a href="form.html" class="active">Conferences</a>
+	  	<a href="form.html" class="active">Join Us</a>
 	</nav>
 	</header>
 	
 	<section>
-	  <h1 id="header">Conferences</h1>
+	  <h1 id="header">Join Us</h1>
 	</section>
-	<h2>Next Conference in Austria!</h2>
-	<h3>Sign up to get more information on the upcoming conference and most importantly to help make a difference!</h3>
-	<div id = "full_form">
-		<form name="sign_up_form" action="#null" method="get" autocomplete="on" onsubmit="return valiForm()">
-		 <fieldset>
-			 <label for = "firstname">First Name:</label>
-			 <input type="text" name ="f_name" id ="firstname" placeholder="Enter First Name">
-			 <label for = "lastname">Last Name:</label>
-			 <input type="text" name ="l_name" id ="lastname" placeholder="Enter Last Name">
-			 <label for = "emailid">Email Address:</label>
-			 <input type = "email" name = "email_id" id ="emailid" placeholder = "abcd13@gmail.com">
-		 </fieldset>
-		 <input type ="submit" value = "Sign Up!">
-		</form>
+	
+	<div class="content">
+		<h2>* *Next Conference in Austria! * *</h2>
+		<h2>Sign up to get more information on the upcoming conference and most importantly to help make a difference!</h2>
 	</div>
-	<div id = "buttons">
-		<button type="button">Facebook</button>
-		<button type="button">LinkedIn</button>
-		<button type="button">Google+</button>
+	
+	<div id = "fullcontain">
+		<div class="divline"></div>
+		<div id = "full_form">
+			<form name="sign_up_form" action="#null" method="get" autocomplete="on" onsubmit="return valiForm()">
+			 <fieldset>
+				 <label for = "firstname">First Name:</label>
+				 <input type="text" name ="f_name" id ="firstname" placeholder="Enter First Name">
+				 <label for = "lastname">Last Name:</label>
+				 <input type="text" name ="l_name" id ="lastname" placeholder="Enter Last Name">
+				 <label for = "emailid">Email Address:</label>
+				 <input type = "email" name = "email_id" id ="emailid" placeholder = "abcd13@gmail.com">
+			 	</fieldset>
+				<input type ="submit" value = "Join Us!">
+			</form>
+	  	</div>
+		<div id = "sc_container">
+			<button type="button" class = "button1">Facebook</button>
+			<button type="button" class = "button2">LinkedIn</button>
+			<button type="button" class = "button3">Google+</button>
+		</div>
 	</div>
 </body>
 </html>
