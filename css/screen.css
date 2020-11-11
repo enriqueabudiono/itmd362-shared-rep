@@ -163,14 +163,14 @@ html{
 }
 #tab3 img{
 	float: left;
-	margin-left: 5%;
-	height: 200px;
-	width: 150px;
+	margin-left: 15%;
+	height: 400px;
+	width: auto;
 }
 #tab3 p{
-	margin-right: 50%;
-	width: 30%;
-	margin-left: 18%;
+	margin: 10px 10%;
+	font-size: 20px;
+	width: auto;
 }
 /* CSS for Join Us Page */
 .content {
