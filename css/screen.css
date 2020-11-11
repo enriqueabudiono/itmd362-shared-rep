@@ -350,6 +350,18 @@ input[type=submit]:hover {
 		top: 600px;
 		left: 50px;
 	}
+
+	.divline{
+	 	visibility: hidden;
+	 }
+	
+	 #full_form{
+	  	width: 95%;
+	 }
+	
+	 #sc_container{
+	  	visibility: hidden;
+	 }
 }
 /* Bigger than 600 pixel and smaller than 1024 pixel*/
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -401,6 +413,10 @@ input[type=submit]:hover {
 		top: 730px;
 		left: 0px;
 	}
+	
+	  #sc_container{
+	  	top: 35%;
+	  }
 }
 
 /* Bigger than 1024 pixel and smaller than 1600 pixel*/
@@ -453,4 +469,8 @@ input[type=submit]:hover {
 		top: 730px;
 		left: 0px;
 	}
+	
+	#sc_container{
+    		top: 35%;
+ 	}
 }
