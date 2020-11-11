@@ -56,7 +56,7 @@ nav a.active {
 /*CSS for the Second Page*/
 
 /*CSS for the Pictures*/
-#photos{
+#photos img{
 	height: 100px;
 	width: 100px;
 	border-radius: 50%;
