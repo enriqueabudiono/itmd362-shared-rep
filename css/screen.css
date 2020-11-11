@@ -104,6 +104,7 @@ html{
 }
 .tabcontent ol{
 	list-style: inside;
+	list-style-type: upper-roman;
 }
 .tabcontent li{
 	margin-bottom: 10px;
@@ -114,6 +115,7 @@ html{
 }
 #tab2 h4{
 	font-style: italic;
+	text-align: center;
 }
 #tab3 img{
 	float: left;
