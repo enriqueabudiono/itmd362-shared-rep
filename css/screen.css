@@ -175,6 +175,9 @@ html{
   font-size: 18.72px;
   font-weight: bold;
 }
+#fullcontain{
+  margin-top: 3%;
+}
 /*Vertical line*/
 .divline{
   border-left: 3px solid black;
@@ -238,7 +241,7 @@ input[type=submit]:hover {
   width: 42%;
   position: absolute;
   right: 0;
-  top: 39%;
+  top: 30%;
   margin-right: 2%;
 }
 .button1{
