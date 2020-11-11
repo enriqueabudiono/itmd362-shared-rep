@@ -104,6 +104,11 @@ html{
 }
 .tabcontent ol{
 	list-style-type: upper-roman;
+	margin-bottom: 10px;
+}
+.tabcontent h5{
+	margin-bottom: 10px;
+	font-weight: bold;
 }
 #tab2 h4{
 	font-style: italic;
