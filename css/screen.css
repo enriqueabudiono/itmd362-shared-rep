@@ -103,7 +103,6 @@ html{
 	margin-bottom: 10px;
 }
 .tabcontent ol{
-	list-style-type: upper-roman;
 	list-style: inside;
 }
 .tabcontent ol, li{
