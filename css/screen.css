@@ -389,37 +389,6 @@ input[type=submit]:hover {
 		left: 50px;
 	}
 
-	.divline{
-	 	visibility: hidden;
-	 }
-	
-	 #full_form{
-	  	width: 90%;
-	 }
-	
-	 #sc_container{
-	  	visibility: hidden;
-	 }
-	
-	.content {
-  		font-size: 28.5px;
-		margin: 1%;
-	}
-	
-	#firstname{
-		  margin-top: 15px;
-		  margin-bottom: 20px;
-	}
-	
-	#lastname{
-		  margin-top: 15px;
-		  margin-bottom: 20px;
-	}
-	
-	#emailid{
-		  margin-top: 15px;
-		  margin-bottom: 2px;
-	}
 }
 /* Bigger than 600 pixel and smaller than 1024 pixel*/
 @media screen and (min-width: 600px) and (max-width: 1024px) {
