@@ -191,7 +191,8 @@ html{
 }
 /*Vertical line*/
 .divline{
-  border-left: 3px solid black;
+  border-left: 4px solid;
+  border-color: #419A2D;
   height: 340px;
   left: 54%;
   margin-top: 19px;
