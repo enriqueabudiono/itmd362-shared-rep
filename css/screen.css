@@ -57,9 +57,9 @@ nav a.active {
 
 /*CSS for the Pictures*/
 #photos{
-	height: 75px;
-	width: 115px;
-	border-radius: 10%;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
 }
 /*CSS for the paragraph and headers*/
 html{
