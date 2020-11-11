@@ -339,6 +339,21 @@ input[type=submit]:hover {
   background-color: #db4a39;
 }
 
+#pg3_1{
+	width: 100%;
+}
+div.con_imgs{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	margin-left: 8px;
+	padding: 5px;
+  	float: left;
+  	width: 24.99999%;
+	text-align: center;
+	font-size: 20px;
+}
+
 /*End of CSS for Join Us Page */
 
 /* Mobile Device*/
@@ -413,6 +428,9 @@ input[type=submit]:hover {
 	#emailid{
 		margin-top: 15px;
 		margin-bottom: 2px;
+	}
+	div.con_imgs{
+		visibility: hidden;
 	}
 }
 /* Bigger than 600 pixel*/
@@ -535,6 +553,9 @@ input[type=submit]:hover {
 	#sc_container{
 	  	top: 40%;
 	  }
+	div.con_imgs{
+		width: 31%;
+	}
 }
 @media screen and (min-width: 768px){
 	#photos img{
