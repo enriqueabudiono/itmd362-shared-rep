@@ -105,7 +105,7 @@ html{
 .tabcontent ol{
 	list-style: inside;
 }
-.tabcontent ol, li{
+.tabcontent li{
 	margin-bottom: 10px;
 }
 .tabcontent h5{
