@@ -78,6 +78,7 @@ html{
 	border: 5px solid black;
 	font-weight: bold;
 	transition: .1s;
+	font-size: 24px;
 }
 .tabs h3{
 	font-size: 24px;
