@@ -169,7 +169,7 @@ html{
 }
 #tab3 p{
 	margin: 10px 10%;
-	font-size: 16px;
+	font-size: 12px;
 	width: auto;
 }
 /* CSS for Join Us Page */
@@ -526,6 +526,11 @@ input[type=submit]:hover {
     		top: 35%;
  	}
  }
+@media screen and (min-width: 510px){
+	#tab3 p{
+		font-size: 16px;
+	}
+}
 @media screen and (min-width: 768px){
 	#photos img{
 		width: 150px;
