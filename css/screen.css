@@ -333,8 +333,7 @@ input[type=submit]:hover {
 /*End of CSS for Join Us Page */
 
 /* Mobile Device*/
-/* If window < 1000px */
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 300px) {
 	.logo {
 		position: absolute;
 		overflow: hidden;
