@@ -1,8 +1,8 @@
-var acc = document.getElementsByClassName("tabs");
+var name = document.getElementsByClassName("tabs");
 var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+for (i = 0; i < name.length; i++) {
+  name[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var tabcontent = this.nextElementSibling;
     if (tabcontent.style.display === "block"){
