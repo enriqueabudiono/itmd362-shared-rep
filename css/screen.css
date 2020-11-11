@@ -110,8 +110,8 @@ html{
 }
 
 .information{
-	font-size: 20px;
-	margin: 10px 15%;
+	font-size: 12px;
+	margin: 10px 2%;
 }
 
 /*CSS for the Buttons and tab content*/
@@ -136,7 +136,7 @@ html{
 	overflow: hidden;
 	text-align: left;
 	margin: 15px 5%;
-	font-size: 16px;
+	font-size: 10px;
 }
 .tabcontent h4{
 	font-size: 20px;
@@ -164,12 +164,12 @@ html{
 #tab3 img{
 	float: left;
 	margin-left: 15%;
-	height: 400px;
+	height: 250px;
 	width: auto;
 }
 #tab3 p{
 	margin: 10px 10%;
-	font-size: 20px;
+	font-size: 16px;
 	width: auto;
 }
 /* CSS for Join Us Page */
@@ -525,9 +525,42 @@ input[type=submit]:hover {
 	#sc_container{
     		top: 35%;
  	}
+ }
 @media screen and (min-width: 768px){
 	#photos img{
 		width: 150px;
 		height: 150px;
+	}
+	.information{
+		font-size: 16px;
+		margin: 10px 10%;
+	}
+	.tabcontent{
+	font-size: 12px;
+	}
+	.tabcontent h4{
+	font-size: 20px;
+	}
+	#tab3 img{
+		height: 400px;
+	}
+	#tab3 p{
+	font-size: 20px;
+	}
+}
+@media screen and (min-width: 992px){
+	#photos img{
+		width: 200px;
+		height: 200px;
+	}
+	.information{
+		font-size: 20px;
+		margin: 10px 15%;
+	}
+	.tabcontent{
+		font-size: 16px;
+	}
+	.tabcontent h4{
+		font-size: 24px;
 	}
 }
