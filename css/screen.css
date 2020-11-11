@@ -168,7 +168,7 @@ html{
 
 /* CSS for Join Us Page */
 .content {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 3%;
 }
@@ -356,12 +356,16 @@ input[type=submit]:hover {
 	 }
 	
 	 #full_form{
-	  	width: 95%;
+	  	width: 90%;
 	 }
 	
 	 #sc_container{
 	  	visibility: hidden;
 	 }
+	.content {
+  		font-size: 28.5px;
+		margin: 1%;
+	}
 }
 /* Bigger than 600 pixel and smaller than 1024 pixel*/
 @media screen and (min-width: 600px) and (max-width: 1024px) {
