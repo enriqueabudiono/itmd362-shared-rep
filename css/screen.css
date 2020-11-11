@@ -172,6 +172,9 @@ html{
 	font-size: 12px;
 	width: auto;
 }
+.underline{
+	text-decoration: underline;
+}
 /* CSS for Join Us Page */
 .content {
   font-size: 25px;
