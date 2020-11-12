@@ -375,7 +375,7 @@ div.con_imgs{
 		max-width: 100%;
 	}
 	video {
-		width: 50%;
+		width: 90%;
 		position: absolute;
 		float: left;
 		top: 200px;
@@ -507,7 +507,8 @@ div.con_imgs{
 	}
 	
 	video {
-		width: 50%;
+		width: 35%;
+		height: auto;
 		position: absolute;
 		top: 250px;
 		left: 50px;
@@ -519,24 +520,24 @@ div.con_imgs{
 		font-family: 'Montserrat';
 		font-size: 25px;
 		top: 250px;
-		left: 850px;
+		left: 580px;
 		padding: 18px;
 	}
 	.argument p {
 		position: absolute;
 		float: left;
-		font-size: 23px;
-		top: 450px;
-		left: 850px;
-		right: inherit;
+		font-size: 20px;
+		top: 400px;
+		left: 600px;
+		padding: 18px;	
 	}
 	
 	.join-us p {
 		position: absolute;
 		font-size: 23px;
 		top: 500px;
-		left: 1000px;
-		right: inherit;
+		left: 750px;
+		padding: 18px;
 	}
 	
 	#sc_container{
