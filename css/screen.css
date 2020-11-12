@@ -346,7 +346,13 @@ input[type=submit]:hover {
   background-color: #db4a39;
 }
 
-#pg3_1, #pg3_2, #pg3_3 {
+#pg3_1{
+	width: 100%;
+}
+#pg3_2{
+	width: 100%;
+}
+#pg3_3{
 	width: 100%;
 }
 div.con_imgs{
