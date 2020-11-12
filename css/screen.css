@@ -554,7 +554,7 @@ div.con_imgs{
 	  	top: 40%;
 	  }
 	div.con_imgs{
-		width: 31%;
+		visibility: hidden;
 	}
 }
 @media screen and (min-width: 768px){
@@ -596,6 +596,10 @@ div.con_imgs{
 	}
 	#tab3 img{
 		height: 400px;
+	}
+	div.con_imgs{
+		visibility: visible;
+		width: 31%;
 	}
 }
 /* Media that more than 1600 pixel */
