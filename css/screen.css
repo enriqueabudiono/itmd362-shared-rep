@@ -404,10 +404,6 @@ div.con_imgs{
 		top: 600px;
 		left: 50px;
 	}
-
-}
-/* Bigger than 300 pixel and smaller than 510 pixel*/
-@media screen and (min-width: 300px) and (max-width: 510px) {
 	.divline{
 		visibility: hidden;
 	}
@@ -432,6 +428,7 @@ div.con_imgs{
 	div.con_imgs{
 		visibility: hidden;
 	}
+
 }
 /* Bigger than 600 pixel*/
 @media screen and (min-width: 600px) {
@@ -555,6 +552,12 @@ div.con_imgs{
 	  }
 	div.con_imgs{
 		visibility: hidden;
+	}
+	.divline{
+		visibility: visible;
+	}
+	#sc_container{
+		visibility: visible;
 	}
 }
 @media screen and (min-width: 768px){
