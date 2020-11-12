@@ -75,9 +75,16 @@ video {
 	left: 1000px;
 }
 
-.join-us button {
+.join-us a {
 	background-color: #6495ED;
+	padding: 10px 5px;
+	text-decoration: none;
 	border: 3px solid #005BFF;
+}
+
+.join-us a:hover {
+	background-color: #005BFF;
+	border: 3px solid #6495ED;
 }
 
 /* End of CSS for index page */
