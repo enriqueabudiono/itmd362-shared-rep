@@ -372,296 +372,296 @@ div.con_imgs{
 /* Mobile Device*/
 @media screen and (min-width: 300px) {
   .logo {
-	position: absolute;
-	overflow: hidden;
-	top: 48px;
-	left: 0px;
-	width: 90px;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 48px;
+	  left: 0px;
+	  width: 90px;
   }
   .title {
-	position: absolute;
-	float: left;
-	top: 85px;
-	left: 115px;
-	font-size: 13px;
-	color: #6495ED;
-	max-width: 100%;
+	  position: absolute;
+	  float: left;
+	  top: 85px;
+	  left: 115px;
+	  font-size: 13px;
+	  color: #6495ED;
+	  max-width: 100%;
   }
   video {
-	width: 90%;
-	position: absolute;
-	float: left;
-	top: 200px;
-	left: 20px;
+	  width: 90%;
+	  position: absolute;
+	  float: left;
+	  top: 200px;
+	  left: 20px;
   }
   .quote p {
-	position: absolute;
-	float: left;
-	font-family: 'Montserrat';
-	font-size: 16px;
-	top: 450px;
-	left: 0px;
-	padding: 18px;
+	  position: absolute;
+	  float: left;
+	  font-family: 'Montserrat';
+	  font-size: 16px;
+	  top: 450px;
+	  left: 0px;
+	  padding: 18px;
   }
   .argument p {
-	position: absolute;
-	float: left;
-	font-size: 16px;
-	top: 550px;
-	left: 0px;
+	  position: absolute;
+	  float: left;
+	  font-size: 16px;
+	  top: 550px;
+	  left: 0px;
   }
   .join-us p {
-	position: absolute;
-	font-size: 16px;
-	top: 600px;
-	left: 50px;
+	  position: absolute;
+	  font-size: 16px;
+	  top: 600px;
+	  left: 50px;
   }
   .divline{
-	visibility: hidden;
+	  visibility: hidden;
   }
   #full_form{
-	width: 90%;
+	  width: 90%;
   }
   #sc_container{
-	visibility: hidden;
+	  visibility: hidden;
   }
   #firstname{
-	margin-top: 15px;
-	margin-bottom: 20px;
+	  margin-top: 15px;
+	  margin-bottom: 20px;
   }
   #lastname{
-	margin-top: 15px;
-	margin-bottom: 20px;
+	  margin-top: 15px;
+	  margin-bottom: 20px;
   }
   #emailid{
-	margin-top: 15px;
-	margin-bottom: 2px;
+	  margin-top: 15px;
+	  margin-bottom: 2px;
   }
   div.con_imgs{
-	visibility: hidden;
+	  visibility: hidden;
   }
 }
 
 /* Bigger than 600 pixel*/
 @media screen and (min-width: 600px) {
   .logo {
-	position: absolute;
-	overflow: hidden;
-	top: 48px;
-	left: 50px;
-	width: 15%;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 48px;
+	  left: 50px;
+	  width: 15%;
   }
   .title {
-	position: absolute;
-	float: left;
-	top: 85px;
-	left: 215px;
-	font-size: 25px;
-	color: #6495ED;
-	max-width: 100%;
+	  position: absolute;
+	  float: left;
+	  top: 85px;
+	  left: 215px;
+	  font-size: 25px;
+	  color: #6495ED;
+	  max-width: 100%;
   }
   video {
-	width: 70%;
-	position: absolute;
-	top: 200px;
-	left: 120px;
+	  width: 70%;
+	  position: absolute;
+	  top: 200px;
+	  left: 120px;
   }
   .quote p {
-	position: absolute;
-	float: left;
-	font-family: 'Montserrat';
-	font-size: 18px;
-	top: 600px;
-	left: 0px;
-	padding: 18px;
+	  position: absolute;
+	  float: left;
+	  font-family: 'Montserrat';
+	  font-size: 18px;
+	  top: 600px;
+	  left: 0px;
+	  padding: 18px;
   }
   .argument p {
-	position: absolute;
-	float: left;
-	font-size: 18px;
-	top: 680px;
-	left: 0px;
+	  position: absolute;
+	  float: left;
+	  font-size: 18px;
+	  top: 680px;
+	  left: 0px;
   }
   .join-us p {
-	position: relative;
-	font-size: 16px;
-	top: 730px;
-	left: 0px;
+	  position: relative;
+	  font-size: 16px;
+	  top: 730px;
+	  left: 0px;
   }
   #sc_container{
-	top: 40%;
+	  top: 40%;
   }
 }
 
 /* Bigger than 1024 pixel*/
 @media screen and (min-width: 1024px) {
   .logo {
-	position: absolute;
-	overflow: hidden;
-	top: 48px;
-	left: 100px;
-	width: 150px;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 48px;
+	  left: 100px;
+	  width: 150px;
   }	
   .title {
-	position: absolute;
-	float: left;
-	top: 95px;
-	left: 280px;
-	font-size: 40px;
-	color: #6495ED;
-	max-width: 100%;
+	  position: absolute;
+	  float: left;
+	  top: 95px;
+	  left: 280px;
+	  font-size: 40px;
+	  color: #6495ED;
+	  max-width: 100%;
   }
   video {
-	width: 35%;
-	height: auto;
-	position: absolute;
-	top: 250px;
-	left: 50px;
+	  width: 35%;
+	  height: auto;
+	  position: absolute;
+	  top: 250px;
+	  left: 50px;
   }	
   .quote p {
-	position: absolute;
-	float: left;
-	font-family: 'Montserrat';
-	font-size: 25px;
-	top: 250px;
-	left: 580px;
-	padding: 18px;
+	  position: absolute;
+	  float: left;
+	  font-family: 'Montserrat';
+	  font-size: 25px;
+	  top: 250px;
+	  left: 580px;
+	  padding: 18px;
   }
   .argument p {
-	position: absolute;
-	float: left;
-	font-size: 20px;
-	top: 400px;
-	left: 600px;
-	padding: 18px;	
+	  position: absolute;
+	  float: left;
+	  font-size: 20px;
+	  top: 400px;
+	  left: 600px;
+	  padding: 18px;	
   }	
   .join-us p {
-	position: absolute;
-	font-size: 23px;
-	top: 500px;
-	left: 750px;
-	padding: 18px;
+	  position: absolute;
+	  font-size: 23px;
+	  top: 500px;
+	  left: 750px;
+	  padding: 18px;
   }	
   #sc_container{
     top: 40%;
-   }
+  }
  }
 
 @media screen and (min-width: 510px){
   #tab3 p{
-	font-size: 16px;
+	  font-size: 16px;
   }
   #sc_container{
-	top: 40%;
+	  top: 40%;
   }
   div.con_imgs{
-	visibility: hidden;
+	  visibility: hidden;
   }
   .divline{
-	visibility: visible;
+	  visibility: visible;
   }
   #sc_container{
-	visibility: visible;
+	  visibility: visible;
   }
   #full_form{
-	width: 50%;
+	  width: 50%;
   }
 }
 
 @media screen and (min-width: 768px){
   #photos img{
-	width: 150px;
-	height: 150px;
+	  width: 150px;
+	  height: 150px;
   }
   .information{
-	font-size: 16px;
-	margin: 10px 10%;
+	  font-size: 16px;
+	  margin: 10px 10%;
   }
   .tabcontent{
-	font-size: 12px;
+	  font-size: 12px;
   }
   .tabcontent h4{
-	font-size: 20px;
+	  font-size: 20px;
   }
   #tab3 img{
-	height: 250px;
+	  height: 250px;
   }
   #tab3 p{
-	font-size: 20px;
+	  font-size: 20px;
   }
 }
 
 @media screen and (min-width: 992px){
   #photos img{
-	width: 200px;
-	height: 200px;
+	  width: 200px;
+	  height: 200px;
   }
   .information{
-	font-size: 20px;
-	margin: 10px 15%;
+	  font-size: 20px;
+	  margin: 10px 15%;
   }
   .tabcontent{
-	font-size: 16px;
+	  font-size: 16px;
   }
   .tabcontent h4{
-	font-size: 24px;
+	  font-size: 24px;
   }
   #tab3 img{
-	height: 400px;
+	  height: 400px;
   }
   div.con_imgs{
-	visibility: visible;
-	width: 31%;
+	  visibility: visible;
+	  width: 31%;
   }
 }
 
 /* Media that more than 1600 pixel */
 @media screen and (min-width: 1600px){
   .logo {
-	position: absolute;
-	overflow: hidden;
-	top: 48px;
-	left: 45px;
-	width: 180px;
+	  position: absolute;
+	  overflow: hidden;
+	  top: 48px;
+	  left: 45px;
+	  width: 180px;
   }
   .title {
-	position: absolute;
-	float: left;
-	top: 95px;
-	left: 310px;
-	font-size: 55px;
-	color: #6495ED;
-	max-width: 100%;
+	  position: absolute;
+	  float: left;
+	  top: 95px;
+	  left: 310px;
+	  font-size: 55px;
+	  color: #6495ED;
+	  max-width: 100%;
   }
   video {
-	width: 30%;
-	position: absolute;
-	top: 250px;
-	left: 120px;
+	  width: 30%;
+	  position: absolute;
+	  top: 250px;
+	  left: 120px;
   }	
   .quote p {
-	position: absolute;
-	float: left;
-	font-family: 'Montserrat';
-	font-size: 24px;
-	top: 300px;
-	left: 720px;
-	padding: 18px;
+	  position: absolute;
+	  float: left;
+	  font-family: 'Montserrat';
+	  font-size: 24px;
+	  top: 300px;
+	  left: 720px;
+	  padding: 18px;
   }
   .argument p {
-	position: absolute;
-	float: left;
-	font-size: 24px;
-	top: 480px;
-	left: 800px;
+	  position: absolute;
+	  float: left;
+	  font-size: 24px;
+	  top: 480px;
+	  left: 800px;
   }
   .join-us p {
-	position: relative;
-	font-size: 23px;
-	top: 550px;
-	left: 400px;
+	  position: relative;
+	  font-size: 23px;
+	  top: 550px;
+	  left: 400px;
   }
   #sc_container{
-	top: 35%;
+	  top: 35%;
   }
 }
