@@ -75,9 +75,16 @@ video {
 	left: 1000px;
 }
 
-.join-us button {
+.join-us a {
 	background-color: #6495ED;
+	padding: 10px 5px;
+	text-decoration: none;
 	border: 3px solid #005BFF;
+}
+
+.join-us a:hover {
+	background-color: #005BFF;
+	border: 3px solid #6495ED;
 }
 
 /* End of CSS for index page */
@@ -191,7 +198,8 @@ html{
 }
 /*Vertical line*/
 .divline{
-  border-left: 3px solid black;
+  border-left: 4px solid;
+  border-color: #419A2D;
   height: 340px;
   left: 54%;
   margin-top: 19px;
@@ -243,7 +251,7 @@ html{
   margin-bottom: 1px;
 }
 fieldset{
-  border-right: none;
+  border: 0px solid #fff;
 }
 input[type=text], input[type=email]{
   border: 3px solid;
@@ -338,6 +346,27 @@ input[type=submit]:hover {
   background-color: #db4a39;
 }
 
+#pg3_1{
+	width: 100%;
+}
+#pg3_2{
+	width: 100%;
+}
+#pg3_3{
+	width: 100%;
+}
+div.con_imgs{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	margin-left: 8px;
+	padding: 5px;
+  	float: left;
+  	width: 24.99999%;
+	text-align: center;
+	font-size: 20px;
+}
+
 /*End of CSS for Join Us Page */
 
 /* Mobile Device*/
@@ -370,7 +399,7 @@ input[type=submit]:hover {
 		float: left;
 		font-family: 'Montserrat';
 		font-size: 16px;
-		top: 400px;
+		top: 450px;
 		left: 0px;
 		padding: 18px;
 	}
@@ -388,54 +417,47 @@ input[type=submit]:hover {
 		top: 600px;
 		left: 50px;
 	}
-
 	.divline{
-	 	visibility: hidden;
-	 }
-	
-	 #full_form{
-	  	width: 90%;
-	 }
-	
-	 #sc_container{
-	  	visibility: hidden;
-	 }
-	
-	.content {
-  		font-size: 28.5px;
-		margin: 1%;
+		visibility: hidden;
 	}
-	
+	#full_form{
+		width: 90%;
+	}
+	#sc_container{
+		visibility: hidden;
+	}
 	#firstname{
-		  margin-top: 15px;
-		  margin-bottom: 20px;
+		margin-top: 15px;
+		margin-bottom: 20px;
 	}
-	
 	#lastname{
-		  margin-top: 15px;
-		  margin-bottom: 20px;
+		margin-top: 15px;
+		margin-bottom: 20px;
 	}
-	
 	#emailid{
-		  margin-top: 15px;
-		  margin-bottom: 2px;
+		margin-top: 15px;
+		margin-bottom: 2px;
 	}
+	div.con_imgs{
+		visibility: hidden;
+	}
+
 }
-/* Bigger than 600 pixel and smaller than 1024 pixel*/
-@media screen and (min-width: 600px) and (max-width: 1024px) {
+/* Bigger than 600 pixel*/
+@media screen and (min-width: 600px) {
 	.logo {
 		position: absolute;
 		overflow: hidden;
 		top: 48px;
-		left: 0px;
-		width: 90px;
+		left: 50px;
+		width: 15%;
 	}
 	
 	.title {
 		position: absolute;
 		float: left;
 		top: 85px;
-		left: 115px;
+		left: 215px;
 		font-size: 25px;
 		color: #6495ED;
 		max-width: 100%;
@@ -473,68 +495,86 @@ input[type=submit]:hover {
 	}
 	
 	  #sc_container{
-	  	top: 35%;
+	  	top: 40%;
 	  }
 }
 
-/* Bigger than 1024 pixel and smaller than 1600 pixel*/
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
+/* Bigger than 1024 pixel*/
+@media screen and (min-width: 1024px) {
 	.logo {
 		position: absolute;
 		overflow: hidden;
 		top: 48px;
-		left: 0px;
-		width: 120px;
+		left: 100px;
+		width: 150px;
 	}
 	
 	.title {
 		position: absolute;
 		float: left;
 		top: 95px;
-		left: 150px;
-		font-size: 30px;
+		left: 280px;
+		font-size: 40px;
 		color: #6495ED;
 		max-width: 100%;
 	}
 	
 	video {
-		width: 70%;
+		width: 35%;
+		height: auto;
 		position: absolute;
-		top: 200px;
-		left: 120px;
+		top: 250px;
+		left: 50px;
 	}
 	
 	.quote p {
 		position: absolute;
 		float: left;
 		font-family: 'Montserrat';
-		font-size: 23px;
-		top: 600px;
-		left: 0px;
+		font-size: 25px;
+		top: 250px;
+		left: 580px;
 		padding: 18px;
 	}
 	.argument p {
 		position: absolute;
 		float: left;
-		font-size: 23px;
-		top: 680px;
-		left: 20px;
+		font-size: 20px;
+		top: 400px;
+		left: 600px;
+		padding: 18px;	
 	}
 	
 	.join-us p {
-		position: relative;
+		position: absolute;
 		font-size: 23px;
-		top: 730px;
-		left: 0px;
+		top: 500px;
+		left: 750px;
+		padding: 18px;
 	}
 	
 	#sc_container{
-    		top: 35%;
+    		top: 40%;
  	}
  }
 @media screen and (min-width: 510px){
 	#tab3 p{
 		font-size: 16px;
+	}
+	#sc_container{
+	  	top: 40%;
+	  }
+	div.con_imgs{
+		visibility: hidden;
+	}
+	.divline{
+		visibility: visible;
+	}
+	#sc_container{
+		visibility: visible;
+	}
+	#full_form{
+		width: 50%;
 	}
 }
 @media screen and (min-width: 768px){
@@ -577,6 +617,10 @@ input[type=submit]:hover {
 	#tab3 img{
 		height: 400px;
 	}
+	div.con_imgs{
+		visibility: visible;
+		width: 31%;
+	}
 }
 /* Media that more than 1600 pixel */
 @media screen and (min-width: 1600px){
@@ -584,7 +628,7 @@ input[type=submit]:hover {
 		position: absolute;
 		overflow: hidden;
 		top: 48px;
-		left: 150px;
+		left: 45px;
 		width: 180px;
 	}
 	
@@ -592,7 +636,7 @@ input[type=submit]:hover {
 		position: absolute;
 		float: left;
 		top: 95px;
-		left: 380px;
+		left: 310px;
 		font-size: 55px;
 		color: #6495ED;
 		max-width: 100%;
@@ -628,4 +672,7 @@ input[type=submit]:hover {
 		top: 550px;
 		left: 400px;
 	}
+	#sc_container{
+	  	top: 35%;
+	  }
 }
