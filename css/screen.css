@@ -182,6 +182,7 @@ html{
   margin: 10px 10%;
   font-size: 12px;
   width: auto;
+  text-align: center;
 }
 .underline{
   text-decoration: underline;
