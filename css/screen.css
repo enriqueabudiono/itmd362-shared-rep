@@ -523,6 +523,10 @@ div.con_imgs{
         left: 40%;
         right: 45%;
     }
+  
+    #sc_container{
+    top: 30%;
+  }
 }
 
 @media screen and (min-width: 1300px) {
