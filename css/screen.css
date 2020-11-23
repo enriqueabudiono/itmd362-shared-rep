@@ -622,6 +622,9 @@ div.con_imgs{
         left: 43%;
         right: 45%;
     }
+    #sc_container{
+      top: 28%;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -1098,6 +1101,6 @@ div.con_imgs{
     left: 400px;
   }
   #sc_container{
-    top: 32%;
+    top: 30%;
   }
 }
