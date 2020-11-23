@@ -206,32 +206,6 @@ html{
 .underline{
   text-decoration: underline;
 }
-/* CSS for Join Us Page */
-.content {
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 3%;
-}
-
-#fullcontain{
-  margin-top: 3%;
-}
-/*Vertical line*/
-.divline{
-  border-left: 4px solid;
-  border-color: #419A2D;
-  height: 340px;
-  left: 54%;
-  margin-top: 19px;
-  position: absolute;
-}
-/* -->Form Page: Form */
-#full_form{
-  width: 50%;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 2px;
-}
 
 /* CSS for Join Us Page */
 .content {
@@ -239,21 +213,21 @@ html{
   font-weight: bold;
   margin-top: 3%;
 }
-
 #fullcontain{
   margin-top: 3%;
 }
 /*Vertical line*/
 .divline{
-  border-left: 3px solid black;
+  visibility: hidden;
+  border-left: 4px solid black;
   height: 340px;
-  left: 54%;
+  left: 56%;
   margin-top: 19px;
   position: absolute;
 }
 /* -->Form Page: Form */
 #full_form{
-  width: 50%;
+  width: 90%;
   font-size: 20px;
   text-align: center;
   letter-spacing: 2px;
@@ -310,14 +284,15 @@ input[type=submit]:hover {
   margin-right: 2%;
 }
 .button1{
+  visibility: hidden;
   background-color: #4267B2E0; /* original: #4267B2 */
   color: white;
   border: none;
   border-radius: 4px;
   padding: 15px;
-  margin: 4px;
+  margin: 10%;
   margin-bottom: 7%;
-  width: 100%;
+  width: 75%;
   cursor: pointer;
   text-align: center;
   font-size: 20px;
@@ -329,14 +304,15 @@ input[type=submit]:hover {
 }
 
 .button2{
+  visibility: hidden;
   background-color: #2867B2E0;/* original: #2867B2 */
   color: white;
   border: none;
   border-radius: 4px;
   padding: 15px 36px;
-  margin: 4px;
+  margin: 10%;
   margin-bottom: 7%;
-  width: 100%;
+  width: 75%;
   cursor: pointer;
   text-align: center;
   font-size: 20px;
@@ -348,14 +324,15 @@ input[type=submit]:hover {
 }
 
 .button3{
+  visibility: hidden;
   background-color: #DB4A39E0;/* original: #db4a39 */
   color: white;
   border: none;
   border-radius: 4px;
   padding: 15px 36px;
-  margin: 4px;
+  margin: 10%;
   margin-bottom: 7%;
-  width: 100%;
+  width: 75%;
   cursor: pointer;
   text-align: center;
   font-size: 20px;
@@ -368,14 +345,18 @@ input[type=submit]:hover {
 
 #pg3_1{
   width: 100%;
+  visibility: hidden;
 }
 #pg3_2{
   width: 100%;
+  visibility: hidden;
 }
 #pg3_3{
   width: 100%;
+  visibility: hidden;
 }
 div.con_imgs{
+  visibility: hidden;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
@@ -389,8 +370,7 @@ div.con_imgs{
 
 /*End of CSS for Join Us Page */
 
-
-/* Media Query */
+/* Media Queries */
 @media screen and (min-width: 800px) {
     .logo {
         position: absolute;
@@ -871,30 +851,6 @@ div.con_imgs{
     top: 600px;
     left: 50px;
   }
-  .divline{
-    visibility: hidden;
-  }
-  #full_form{
-    width: 90%;
-  }
-  #sc_container{
-    visibility: hidden;
-  }
-  #firstname{
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-  #lastname{
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
-  #emailid{
-    margin-top: 15px;
-    margin-bottom: 2px;
-  }
-  div.con_imgs{
-    visibility: hidden;
-  }
 }
 
 /* Bigger than 600 pixel/
@@ -942,9 +898,6 @@ div.con_imgs{
     font-size: 16px;
     top: 730px;
     left: 0px;
-  }
-  #sc_container{
-    top: 40%;
   }
 }
 
@@ -997,29 +950,30 @@ div.con_imgs{
     left: 750px;
     padding: 18px;
   }	
-  #sc_container{
-    top: 40%;
-  }
  }
 */
 @media screen and (min-width: 510px){
   #tab3 p{
     font-size: 16px;
   }
-  #sc_container{
-    top: 40%;
-  }
-  div.con_imgs{
-    visibility: hidden;
-  }
-  .divline{
-    visibility: visible;
-  }
-  #sc_container{
-    visibility: visible;
-  }
   #full_form{
     width: 50%;
+  }
+  #sc_container{
+    top: 40%;
+    visibility: visible;
+  }
+  .button1{
+		visibility: visible;
+	}
+	.button2{
+		visibility: visible;
+	}
+	.button3{
+		visibility: visible;
+	}
+  .divline{
+    visibility: visible;
   }
 }
 
@@ -1044,6 +998,24 @@ div.con_imgs{
   #tab3 p{
     font-size: 20px;
   }
+  #full_form{
+		width: 50%;
+	}
+  #sc_container{
+    top: 40%;
+  }
+  #firstname{
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	#lastname{
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	#emailid{
+		margin-top: 15px;
+		margin-bottom: 2px;
+	}
 }
 
 @media screen and (min-width: 992px){
@@ -1064,6 +1036,15 @@ div.con_imgs{
   #tab3 img{
     height: 400px;
   }
+  #pg3_1{
+		visibility: visible;
+	}
+	#pg3_2{
+		visibility: visible;
+	}
+	#pg3_3{
+		visibility: visible;
+	}
   div.con_imgs{
     visibility: visible;
     width: 31%;
