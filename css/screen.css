@@ -114,11 +114,15 @@ video {
   font-weight: bold;
   color: white;
   font-family: 'Abril Fatface', cursive;
+  padding: 5px 0;
 }
 
 /*CSS for the Second Page*/
 
 /*CSS for the Pictures*/
+#photos{
+  margin: 20px 0;
+}
 #photos img{
   height: 100px;
   width: 100px;
@@ -131,14 +135,14 @@ html{
   text-align: center;
 }
 #title{
-  margin-top: 15px;
+  margin-top: 32px;
   font-size: 30px;
   font-family: 'Satisfy', cursive;
 }
 
 .information{
   font-size: 12px;
-  margin: 10px 2%;
+  margin: 2%;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -990,7 +994,7 @@ div.con_imgs{
   }
   .information{
     font-size: 16px;
-    margin: 10px 10%;
+    margin: 2% 10%;
   }
   .tabcontent{
     font-size: 12px;
@@ -1028,7 +1032,7 @@ div.con_imgs{
   }
   .information{
     font-size: 20px;
-    margin: 10px 15%;
+    margin: 2% 5%;
   }
   .tabcontent{
     font-size: 16px;
@@ -1102,5 +1106,10 @@ div.con_imgs{
   }
   #sc_container{
     top: 30%;
+  }
+}
+@media screen and (min-width: 1000px){
+  #header{
+    margin-top: 64px;
   }
 }
