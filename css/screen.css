@@ -1100,4 +1100,7 @@ div.con_imgs{
   #header{
     margin-top: 64px;
   }
+  #sc_container{
+    top: 29%;
+  }
 }
