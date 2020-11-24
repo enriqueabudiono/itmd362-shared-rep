@@ -14,7 +14,9 @@ for (i = 0; i < acc.length; i++) {
 }
 
 /* Form JS */
-function valiForm() {
+document.getElementById("valForm").onsubmit = function() {checkForm()};
+
+function checkForm() {
   var x = document.forms["sign_up_form"]["email_id"].value;
   if (x == "") {
     alert("Please enter in your email!");
