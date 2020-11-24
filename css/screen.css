@@ -588,12 +588,6 @@ div.con_imgs{
     margin-top: 15px;
     margin-bottom: 2px;
   }
-  nav li{
-    padding: 20px 16px;
-  }
-  nav a{
-    font-size: 32px;
-  }
 }
 
 @media screen and (min-width: 992px){
@@ -626,12 +620,6 @@ div.con_imgs{
   div.con_imgs{
     visibility: visible;
     width: 31%;
-  }
-  nav li{
-    padding: 20px 16px;
-  }
-  nav a{
-    font-size: 40px;
   }
 }
 
