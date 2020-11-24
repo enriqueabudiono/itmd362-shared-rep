@@ -532,24 +532,6 @@ div.con_imgs{
   .divline{
     visibility: visible;
   }
-  .logo{
-    top: 100px;
-  }
-  .title{
-    top: 140px;
-  }
-  video{
-    top: 250px;
-  }
-  .quote p{
-    top: 550px;
-  }
-  .argument p{
-    top: 625px;
-  }
-  .join-us p{
-    top: 700px;
-  }
 }
 
 @media screen and (min-width: 768px){
@@ -588,6 +570,12 @@ div.con_imgs{
     margin-top: 15px;
     margin-bottom: 2px;
   }
+  nav li{
+    padding: 20px 16px;
+  }
+  nav a{
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -620,6 +608,12 @@ div.con_imgs{
   div.con_imgs{
     visibility: visible;
     width: 31%;
+  }
+  nav li{
+    padding: 20px 16px;
+  }
+  nav a{
+    font-size: 40px;
   }
 }
 
