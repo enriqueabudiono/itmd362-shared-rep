@@ -15,9 +15,11 @@
 <body>
   <header>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="aboutus.html">About Us</a>
-      <a href="form.html" class="active">Join Us</a>
+      <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="aboutus.html">About Us</a></li>
+	<li id="nav-active"><a href="form.html">Join Us</a></li>
+      </ul>
     </nav>
   </header>
 	
@@ -33,7 +35,7 @@
   <div id="fullcontain">
     <div class="divline"></div>
       <div id="full_form">
-        <form name="sign_up_form" action="#null" method="get" autocomplete="on" onsubmit="return valiForm()">
+        <form id="valForm" name="sign_up_form" action="#null" method="get" autocomplete="on">
 	  <fieldset>
             <label for="firstname">First Name:</label>
 	    <input type="text" name="f_name" id="firstname" placeholder="Enter First Name">
@@ -46,9 +48,9 @@
 	</form>
       </div>
       <div id="sc_container">
-	<button type="button" class="button1">Facebook</button>
-	<button type="button" class="button2">LinkedIn</button>
-	<button type="button" class="button3">Google+</button>
+	<a href="https://www.facebook.com/"><button type="button" class="button1">Facebook</button></a>
+	<a href="https://www.linkedin.com/"><button type="button" class="button2">LinkedIn</button></a>
+	<a href="https://www.google.com/account/about/"><button type="button" class="button3">Google+</button></a>
       </div>
   </div>
 	
