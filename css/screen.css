@@ -496,7 +496,7 @@ div.con_imgs{
     font-family: 'Montserrat';
     font-size: 25px;
     top: 150px;
-    left: 500px;
+    left: 600px;
     padding: 18px;
   }
   .argument p {
@@ -504,14 +504,14 @@ div.con_imgs{
     float: left;
     font-size: 20px;
     top: 275px;
-    left: 500px;
+    left: 610px;
     padding: 18px;	
   }	
   .join-us p {
     position: absolute;
     font-size: 23px;
     top: 350px;
-    left: 535px;
+    left: 615px;
     padding: 18px;
   }	
  }
