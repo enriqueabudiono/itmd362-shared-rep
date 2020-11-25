@@ -524,7 +524,7 @@ div.con_imgs{
     width: 50%;
   }
   #sc_container{
-    top: 36%;
+    top: 50%;
     visibility: visible;
   }
   .button1{
@@ -694,6 +694,6 @@ div.con_imgs{
     margin-top: 85px;
   }
   #sc_container{
-    top: 29%;
+    top: 45%;
   }
 }
