@@ -495,23 +495,23 @@ div.con_imgs{
     float: left;
     font-family: 'Montserrat';
     font-size: 25px;
-    top: 50px;
-    left: 450px;
+    top: 150px;
+    left: 500px;
     padding: 18px;
   }
   .argument p {
     position: absolute;
     float: left;
     font-size: 20px;
-    top: 200px;
-    left: 450px;
+    top: 275px;
+    left: 500px;
     padding: 18px;	
   }	
   .join-us p {
     position: absolute;
     font-size: 23px;
-    top: 300px;
-    left: 450px;
+    top: 350px;
+    left: 535px;
     padding: 18px;
   }	
  }
