@@ -241,9 +241,9 @@ fieldset{
 }
 input[type=text], input[type=email]{
   border: 3px solid;
-  background-color: #6495EDB8;
+  background-color: #6495ED78;
   border-radius: 4px;
-  border-color: #6495EDB8;
+  border-color: #6495ED78;
   padding: 15px;
   width: 100%;
   font-size: 20px;
