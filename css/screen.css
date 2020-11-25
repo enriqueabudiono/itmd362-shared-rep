@@ -9,10 +9,10 @@ nav {
 }
 
 nav li {
-    float: none;
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
+  float: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 nav li:hover {
@@ -20,13 +20,13 @@ nav li:hover {
 }
 
 #nav-active {
-    background-color: #005bff;
+  background-color: #005bff;
 }
 
 nav a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 /*Index page*/
