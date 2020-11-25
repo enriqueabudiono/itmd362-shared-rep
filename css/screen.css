@@ -589,9 +589,11 @@ div.con_imgs{
   }
   .quote p{
     top: 550px;
+    margin-top: 15px;
   }
   .argument p{
     top: 625px;
+    left: 20px;
   }
   .join-us p{
     top: 650px;
