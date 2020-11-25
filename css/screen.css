@@ -579,6 +579,9 @@ div.con_imgs{
   nav a{
     font-size: 32px;
   }
+  #header{
+    margin-top: 75px;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -617,6 +620,9 @@ div.con_imgs{
   }
   nav a{
     font-size: 40px;
+  }
+  #header{
+    margin-top: 85px;
   }
 }
 
@@ -672,7 +678,7 @@ div.con_imgs{
 }
 @media screen and (min-width: 1000px){
   #header{
-    margin-top: 64px;
+    margin-top: 85px;
   }
   #sc_container{
     top: 29%;
