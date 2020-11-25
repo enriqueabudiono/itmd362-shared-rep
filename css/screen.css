@@ -524,7 +524,7 @@ div.con_imgs{
     width: 50%;
   }
   #sc_container{
-    top: 50%;
+    top: 51%;
     visibility: visible;
   }
   .button1{
@@ -686,7 +686,7 @@ div.con_imgs{
     left: 400px;
   }
   #sc_container{
-    top: 32%;
+    top: 33%;
   }
 }
 @media screen and (min-width: 1000px){
@@ -694,6 +694,6 @@ div.con_imgs{
     margin-top: 85px;
   }
   #sc_container{
-    top: 41%;
+    top: 49%;
   }
 }
