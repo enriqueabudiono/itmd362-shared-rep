@@ -361,464 +361,25 @@ div.con_imgs{
 }
 /*End of CSS for Join Us Page */
 
-/* Media Queries /
-@media screen and (min-width: 800px) {
-    .logo {
-        position: absolute;
-        overflow: hidden;
-        width: 15%;
-        top: 15%;
-        left: 5%;
-    }
-
-    .title {
-        position: absolute;
-        float: none;
-        top: 25%;
-        left: 20%;
-        font-size: 25px;
-    }
-
-    video {
-        position: absolute;
-        float: none;
-        top: 60%;
-        left: 5%;
-        width: 50%;
-    }
-
-    .quote p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 65%;
-        left: 55%;
-        font-size: 18px;
-    }
-
-    .argument p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 120%;
-        left: 20%;
-        right: 20%;
-        font-size: 20px;
-    }
-
-    .join-us p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 145%;
-        left: 25%;
-
-    }
-
-    .join-us a {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 165%;
-        left: 40%;
-        right: 40%;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    nav {
-        position: absolute;
-        text-align: center;
-        overflow: hidden;
-        background-color: #6495ed;
-        top: 0;
-        width: 100%;
-    }
-    
-    nav li {
-        float: none;
-        display: inline-block;
-        text-align: center;
-        padding: 14px 16px;
-    }
-    
-    nav li:hover {
-        background-color: #005bff;
-    }
-    
-    #nav-active {
-        background-color: #005bff;
-    }
-    
-    nav a {
-        color: white;
-        font-size: 35px;
-        text-decoration: none;
-    }
-
-    .logo {
-        position: absolute;
-        overflow: hidden;
-        width: 20%;
-        top: 5%;
-        left: 5%;
-    }
-
-    .title {
-        position: absolute;
-        float: none;
-        top: 10%;
-        left: 25%;
-        font-size: 32px;
-    }
-
-    video {
-        position: absolute;
-        float: none;
-        top: 25%;
-        left: 5%;
-        width: 90%;
-    }
-
-    .quote p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 65%;
-        left: 5%;
-        font-size: 25px;
-    }
-
-    .argument p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 75%;
-        left: 20%;
-        right: 20%;
-        font-size: 30px;
-    }
-
-    .join-us p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 85%;
-        left: 30%;
-    }
-
-    .join-us a {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 90%;
-        left: 40%;
-        right: 45%;
-    }
-  
-    #sc_container{
-    top: 30%;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-    nav {
-        position: absolute;
-        text-align: center;
-        overflow: hidden;
-        background-color: #6495ed;
-        top: 0;
-        width: 100%;
-    }
-    
-    nav li {
-        float: none;
-        display: inline-block;
-        text-align: center;
-        padding: 14px 16px;
-    }
-    
-    nav li:hover {
-        background-color: #005bff;
-    }
-    
-    #nav-active {
-        background-color: #005bff;
-    }
-    
-    nav a {
-        color: white;
-        font-size: 45px;
-        text-decoration: none;
-    }
-
-    .logo {
-        position: absolute;
-        overflow: hidden;
-        width: 20%;
-        top: 10%;
-        left: 5%;
-    }
-
-    .title {
-        position: absolute;
-        float: none;
-        top: 20%;
-        left: 30%;
-        font-size: 40px;
-    }
-
-    video {
-        position: absolute;
-        float: none;
-        top: 45%;
-        left: 5%;
-        width: 90%;
-    }
-
-    .quote p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 115%;
-        left: 5%;
-        right: 3%;
-        font-size: 35px;
-        padding: 16px 18px;
-    }
-
-    .argument p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 125%;
-        left: 20%;
-        right: 20%;
-        font-size: 40px;
-    }
-
-    .join-us p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 140%;
-        left: 25%;
-        font-size: 40px;
-    }
-
-    .join-us a {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 150%;
-        left: 43%;
-        right: 45%;
-    }
-    #sc_container{
-      top: 28%;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    nav {
-        position: absolute;
-        text-align: center;
-        overflow: hidden;
-        background-color: #6495ed;
-        top: 0;
-        width: 100%;
-    }
-    
-    nav li {
-        float: none;
-        display: inline-block;
-        text-align: center;
-        padding: 14px 16px;
-    }
-    
-    nav li:hover {
-        background-color: #005bff;
-    }
-    
-    #nav-active {
-        background-color: #005bff;
-    }
-    
-    nav a {
-        color: white;
-        font-size: 35px;
-        text-decoration: none;
-    }
-
-    .logo {
-        position: absolute;
-        overflow: hidden;
-        width: 15%;
-        top: 10%;
-        left: 5%;
-    }
-
-    .title {
-        position: absolute;
-        float: none;
-        top: 13%;
-        left: 20%;
-        font-size: 45px;
-    }
-
-    video {
-        position: absolute;
-        float: none;
-        top: 35%;
-        left: 5%;
-        width: 40%;
-    }
-
-    .quote p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 35%;
-        left: 48%;
-        font-size: 25px;
-    }
-
-    .argument p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 65%;
-        left: 20%;
-        right: 20%;
-        font-size: 30px;
-    }
-
-    .join-us p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 78%;
-        left: 30%;
-    }
-
-    .join-us a {
-        position: absolute;
-        text-align: center;
-        float: none;
-        font-family: 'Montserrat';
-        top: 85%;
-        left: 40%;
-        right: 45%;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    nav {
-        position: absolute;
-        text-align: center;
-        overflow: hidden;
-        background-color: #6495ed;
-        top: 0;
-        width: 100%;
-    }
-    
-    nav li {
-        float: none;
-        display: inline-block;
-        text-align: center;
-        padding: 14px 16px;
-    }
-    
-    nav li:hover {
-        background-color: #005bff;
-    }
-    
-    #nav-active {
-        background-color: #005bff;
-    }
-    
-    nav a {
-        color: white;
-        font-size: 35px;
-        text-decoration: none;
-    }
-
-    .logo {
-        position: absolute;
-        overflow: hidden;
-        width: 13%;
-        top: 8%;
-        left: 5%;
-    }
-
-    .title {
-        position: absolute;
-        float: none;
-        top: 15%;
-        left: 20%;
-        font-size: 45px;
-    }
-
-    video {
-        position: absolute;
-        float: none;
-        top: 35%;
-        left: 5%;
-        width: 50%;
-    }
-
-    .quote p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 35%;
-        left: 55%;
-        font-size: 25px;
-    }
-
-    .argument p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 45%;
-        left: 55%;
-        right: 5%;
-    }
-
-    .join-us p {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 65%;
-        left: 58%;
-    }
-
-    .join-us a {
-        position: absolute;
-        float: none;
-        font-family: 'Montserrat';
-        top: 80%;
-        left: 65%;
-        right: 10%;
-    }
-} */
 /* Mobile Device */
 @media screen and (min-width: 300px) {
   .logo {
     position: absolute;
     overflow: hidden;
-    top: 48px;
+    top: 60px;
     left: 0px;
     width: 90px;
+    margin-top: 10px;
   }
   .title {
     position: absolute;
     float: left;
-    top: 85px;
+    top: 100px;
     left: 115px;
     font-size: 13px;
     color: #6495ED;
     max-width: 100%;
+    margin-top: 10px;
   }
   video {
     width: 90%;
@@ -835,6 +396,7 @@ div.con_imgs{
     top: 450px;
     left: 0px;
     padding: 18px;
+    margin-top: 40px;
   }
   .argument p {
     position: absolute;
@@ -842,12 +404,14 @@ div.con_imgs{
     font-size: 16px;
     top: 550px;
     left: 0px;
+    margin-top: 25px;
   }
   .join-us p {
     position: absolute;
     font-size: 16px;
     top: 600px;
     left: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -856,18 +420,20 @@ div.con_imgs{
   .logo {
     position: absolute;
     overflow: hidden;
-    top: 48px;
+    top: 60px;
     left: 50px;
     width: 15%;
+    margin-top: 15px;
   }
   .title {
     position: absolute;
     float: left;
-    top: 85px;
+    top: 100px;
     left: 215px;
     font-size: 25px;
     color: #6495ED;
     max-width: 100%;
+    margin-top: 20px;
   }
   video {
     width: 70%;
@@ -880,7 +446,7 @@ div.con_imgs{
     float: left;
     font-family: 'Montserrat';
     font-size: 18px;
-    top: 600px;
+    top: 450px;
     left: 0px;
     padding: 18px;
   }
@@ -888,13 +454,13 @@ div.con_imgs{
     position: absolute;
     float: left;
     font-size: 18px;
-    top: 680px;
+    top: 550px;
     left: 0px;
   }
   .join-us p {
     position: relative;
     font-size: 16px;
-    top: 730px;
+    top: 600px;
     left: 0px;
   }
 }
@@ -904,14 +470,14 @@ div.con_imgs{
   .logo {
     position: absolute;
     overflow: hidden;
-    top: 48px;
+    top: 100px;
     left: 100px;
     width: 150px;
   }	
   .title {
     position: absolute;
     float: left;
-    top: 95px;
+    top: 130px;
     left: 280px;
     font-size: 40px;
     color: #6495ED;
@@ -921,7 +487,7 @@ div.con_imgs{
     width: 35%;
     height: auto;
     position: absolute;
-    top: 250px;
+    top: 300px;
     left: 50px;
   }	
   .quote p {
@@ -929,23 +495,23 @@ div.con_imgs{
     float: left;
     font-family: 'Montserrat';
     font-size: 25px;
-    top: 250px;
-    left: 580px;
+    top: 150px;
+    left: 600px;
     padding: 18px;
   }
   .argument p {
     position: absolute;
     float: left;
     font-size: 20px;
-    top: 400px;
-    left: 600px;
+    top: 275px;
+    left: 610px;
     padding: 18px;	
   }	
   .join-us p {
     position: absolute;
     font-size: 23px;
-    top: 500px;
-    left: 750px;
+    top: 350px;
+    left: 615px;
     padding: 18px;
   }	
  }
@@ -958,7 +524,7 @@ div.con_imgs{
     width: 50%;
   }
   #sc_container{
-    top: 36%;
+    top: 50%;
     visibility: visible;
   }
   .button1{
@@ -1011,6 +577,24 @@ div.con_imgs{
     margin-top: 15px;
     margin-bottom: 2px;
   }
+  nav li{
+    padding: 20px 16px;
+  }
+  nav a{
+    font-size: 32px;
+  }
+  #header{
+    margin-top: 75px;
+  }
+  .quote p{
+    margin-top: 150px;
+  }
+  .argument p{
+    margin-top: 125px;
+  }
+  .join-us p{
+    margin-top: 135px;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -1043,6 +627,15 @@ div.con_imgs{
   div.con_imgs{
     visibility: visible;
     width: 31%;
+  }
+  nav li{
+    padding: 20px 16px;
+  }
+  nav a{
+    font-size: 40px;
+  }
+  #header{
+    margin-top: 85px;
   }
 }
 
@@ -1098,9 +691,9 @@ div.con_imgs{
 }
 @media screen and (min-width: 1000px){
   #header{
-    margin-top: 64px;
+    margin-top: 85px;
   }
   #sc_container{
-    top: 29%;
+    top: 45%;
   }
 }
