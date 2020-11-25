@@ -495,27 +495,24 @@ div.con_imgs{
     float: left;
     font-family: 'Montserrat';
     font-size: 25px;
-    top: 300px;
-    left: 580px;
+    top: 50px;
+    left: 450px;
     padding: 18px;
-    margin-top: 15px;
   }
   .argument p {
     position: absolute;
     float: left;
     font-size: 20px;
-    top: 400px;
-    left: 600px;
+    top: 200px;
+    left: 450px;
     padding: 18px;	
-    margin-top: 25px;
   }	
   .join-us p {
     position: absolute;
     font-size: 23px;
-    top: 450px;
-    left: 600px;
+    top: 300px;
+    left: 450px;
     padding: 18px;
-    margin-top: 50px;
   }	
  }
 
@@ -590,13 +587,13 @@ div.con_imgs{
     margin-top: 75px;
   }
   .quote p{
-    margin-top: 250px;
+    margin-top: 150px;
   }
   .argument p{
-    margin-top: 225px;
+    margin-top: 125px;
   }
   .join-us p{
-    margin-top: 225px;
+    margin-top: 135px;
   }
 }
 
