@@ -369,6 +369,7 @@ div.con_imgs{
     top: 60px;
     left: 0px;
     width: 90px;
+    margin-top: 10px;
   }
   .title {
     position: absolute;
@@ -378,6 +379,7 @@ div.con_imgs{
     font-size: 13px;
     color: #6495ED;
     max-width: 100%;
+    margin-top: 10px;
   }
   video {
     width: 90%;
@@ -394,6 +396,7 @@ div.con_imgs{
     top: 450px;
     left: 0px;
     padding: 18px;
+    margin-top: 40px;
   }
   .argument p {
     position: absolute;
@@ -401,12 +404,14 @@ div.con_imgs{
     font-size: 16px;
     top: 550px;
     left: 0px;
+    margin-top: 25px;
   }
   .join-us p {
     position: absolute;
     font-size: 16px;
     top: 600px;
     left: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -441,7 +446,7 @@ div.con_imgs{
     float: left;
     font-family: 'Montserrat';
     font-size: 18px;
-    top: 600px;
+    top: 450px;
     left: 0px;
     padding: 18px;
   }
@@ -449,13 +454,13 @@ div.con_imgs{
     position: absolute;
     float: left;
     font-size: 18px;
-    top: 680px;
+    top: 550px;
     left: 0px;
   }
   .join-us p {
     position: relative;
     font-size: 16px;
-    top: 730px;
+    top: 600px;
     left: 0px;
   }
 }
@@ -581,6 +586,15 @@ div.con_imgs{
   }
   #header{
     margin-top: 75px;
+  }
+  .quote p{
+    top: 550px;
+  }
+  .argument p{
+    top: 625px;
+  }
+  .join-us p{
+    top: 650px;
   }
 }
 
